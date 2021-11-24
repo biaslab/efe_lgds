@@ -22,7 +22,7 @@ A  = I(n)
 # Transition noise
 Σ_z = I(n) #* 0.5
 # Candidate transition matrices
-B1 = I(n) * 0.1# This now grows the variance a LOT compared to the other options
+B1 = I(n) * 0.1
 B2 = I(n) * 1.0
 B3 = I(n) * 10.
 B4 = I(n) * 100.
